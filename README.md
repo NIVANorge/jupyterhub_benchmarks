@@ -38,7 +38,7 @@ This test times how long it takes to read an entire geospatial table from PostGI
 
 ### Test 4: Spatial analysis in PostGIS (seconds; lower is better; [code](./notebooks/test_postgis.ipynb))
 
-This test times how long it takes to perform a geospatial intersection between two polygon datasets in PostGIS. **This operation takes place within the database itself and therefore reflects the processing power of the PostGIS instance, not than the user's server**. The test clips the Corine land cover data to the bounding box of Aust-Agder.
+This test times how long it takes to perform a geospatial intersection between two polygon datasets in PostGIS. **This operation takes place within the database itself and therefore reflects the processing power of the PostGIS instance, not the user's server**. The test clips the Corine land cover data to the bounding box of Aust-Agder.
 
 ### Test 5: Calculate the first 10k digits of Pi (seconds; lower is better; [code](https://github.com/alexdedyura/cpu-benchmark/blob/main/cpu-benchmark.py))
 
