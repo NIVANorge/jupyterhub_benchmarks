@@ -54,7 +54,7 @@ Use `nivapy.spatial.derive_watershed_boundaries` and a 40 m DTM to derive catchm
 
 ## Results
 
-Results from each test are shown on the bar charts below. **For all tests except the first (`Write to shared disk`), lower scores are better**.
+Results from each test are shown on the bar charts below. Black vertical lines on each bar represent the variability over the 10 tests (as 95% confidence intervals). **For all tests except the first (`Write to shared disk`), lower scores are better**.
 
 **The old Hub has better performance than the new Hub on all tests**. 
 
