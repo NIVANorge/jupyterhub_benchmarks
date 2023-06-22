@@ -60,6 +60,4 @@ Results from each test are shown on the bar charts below. Black vertical lines o
 
 In most cases, differences are small and probably negligible. An exception is performance of the PostGIS database on the new cluster (top-right plot below), which is more than 50 times slower than the PostGIS instance on the old Hub. **The PostGIS database on the new Hub should have its resources increased**, because at present it is so slow that it is not usable for most common JupyterHub workflows.
 
-Note that, at present, it is not possible to run Test 2b on the new Hub as the `El Gordo` machine is not available.
-
 <img src="./results/test_results.png" width="100%" class="center"/>
